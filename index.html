@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora básica</title>
+</head>
+<body>
+
+<h1 class="bienvenida">Bienvenido a la calculadora básica</h1>
+
+<div class="container">
+
+  <form>
+    <p id="info">Error en el cálculo</p>
+
+      <input type="number" placeholder="Número 1" id="n1">
+      
+      <div id="n2Container">
+        <input type="number" placeholder="Número 2" id="n2">
+      </div>
+
+      <div id="n3Container" style="display: none;">
+        <input type="number" placeholder="Número 3" id="n3">
+      </div>
+  
+    <select id="opciones" onchange="mostrarSegundoNumero()">
+      <option value="1">suma</option>
+      <option value="2">resta</option>
+      <option value="3">multiplicación</option>
+      <option value="4">división</option>
+      <option value="5">Raíz cuadrada</option>
+      <option value="6">Ecuación de segundo grado</option>
+      <option value="7">Área del círculo</option>
+      <option value="8">producto notable</option>
+    </select> <br>
+
+    <input type="button" value="Calcular" onclick="calcular()" class="calcular"> 
+
+  </form>
+
+</div>
+
+<script src="js.js"></script>
+
+</body>
+</html>
