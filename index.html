@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>waos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+
+<header>
+
+			<!--parte principal de la pagina,aqui es donde se inicia sesion y demas -->
+			<nav class="navbar bg-primary-dark" id="inicio">
+		<div class="container-fluid">
+		  <a class="navbar-brand text-white" href="">
+			<img src="https://m.media-amazon.com/images/I/517UMEkyGGL._FMwebp_.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top img-logo">
+			Bootstrap
+		  </a>
+
+		<div class="btn-group-header">
+		  <button type="button" class="btn btn-dark">
+			<a href="../registro o iniciar sesion/registroInicio.html">iniciar sesion</a>
+		  </button>
+		  
+		  <button type="button" class="btn btn-primary">
+			<a href="../registro/registro.html">Registrarse</a>
+		  </button>
+
+		  <div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+				<i class="bi bi-globe2"></i>
+				Idioma
+			</button>
+			<ul class="dropdown-menu drop-menu">
+			  <li><a class="dropdown-item" href="#k">Action</a></li>
+			  <li><a class="dropdown-item" href="#k">Action</a></li>
+			  <li><a class="dropdown-item" href="#k">Action</a></li>
+			  <li><a class="dropdown-item" href="#k">Action</a></li>
+			  <li><a class="dropdown-item" href="#k">Action</a></li>
+			  <li><a class="dropdown-item" href="#k">Action</a></li>
+			</ul>
+			</div>
+		  </div>
+
+		</div>
+
+
+			</nav>
+
+
+
+
+
+
+
+
+            <!--container info, que esta encima del carrousel-->
+            <div class="container-fuid text-white bg-info container-info">
+
+    <!--esto forma parte del container info, esta es la parte izquierda, la que solo contiene letras-->
+    <div class="container-info-body-part-left">
+        <h1>Beneficios de juego gratis.
+            Encuentra todo eso con Amazon Prime.</h1>
+
+        <p><i class="bi bi-check2"></i>Todo incluido con una membresía de Amazon Prime
+            <b>Sin costo adicional</b></p>
+
+            <p> <i class="bi bi-check2"></i>
+            Descarga, juega y quédate con juegos completos para PC</p>
+
+              <p> <i class="bi bi-check2"></i>
+            Apoya a tus streamers favoritos con una suscripción mensual a un canal de Twitch</p>
+            
+            <p><i class="bi bi-check2"></i>Sumérgete en un conjunto en evolución de beneficios de juego, como jugar juegos entre dispositivos en Amazon Luna, 
+            desafíos diarios y mucho más</p>
+    </div>
+
+
+    <!--esta es la parte derecha del container info, la tarjeta esa-->
+        <div class="card container-card bg-dark d-none d-xl-block">
+            <img src="https://m.media-amazon.com/images/I/91upEAkiaCL._SX512_._AGmerlin_._FMwebp_.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p>Inicia ahora una prueba gratuita de 30 dias</p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-info" type="button">Iniciar prueba gratuita</button>
+                
+                <p>¿Ya eres miembro de peak?</p>
+                <button class="btn btn-light" type="button">Iniciar sesion (Todo incluido)</button>
+              </div>
+            </div>
+          </div>
+    
+          </div>
+
+
+
+
+
+
+
+
+		  <!--Seccion carrusel-->
+			<section class="carouselMain-container" >
+				<div id="carouselExampleAutoplaying" class="carousel slide container" data-bs-ride="carousel">
+				  <div class="carousel-inner ">
+					
+					<div class="carousel-item active">
+					  <img src="https://news.codashop.com/ph/wp-content/uploads/sites/5/2022/07/MLBB-Dodge-System-1.jpg"  alt="Logo de mobile legends bang bang" class="mx-auto d-block img-carrousel">
+					</div>
+					<div class="carousel-item">
+					  <img src="https://marksangryreview.com/wp-content/uploads/2023/09/Farlight-84.jpg" alt="Logo de farlight 84" class="mx-auto d-block img-carrousel">
+					</div>
+					<div class="carousel-item">
+					  <img src="https://gh.cdn.sewest.net/assets/ident/pulse/a8a91fbf/NieR_collab_newchara-d62yq33b4-mxk4t93jn.jpg?quality=65" alt="Logo de farlight 84" class="mx-auto d-block img-carrousel">
+					</div>
+		  
+		  
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+					  </section>
+	  	
+
+
+
+
+					   <!--Barra de navegacion que esta debajo del carrussel-->
+					   <nav class="navbar navbar-expand-md navbar-light">
+						<div class="container-fluid container-fluid-navbar"> <!-- container-fluid es para que el contenedor se ajuste al 100% -->
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+					
+							<div class="collapse navbar-collapse" id="navbar-Toggler">
+								<!-- Lista de enlaces de la página web -->
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link" href="##k">Todos</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="##k">Juegos gratis</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="##k">Juegos en la nube</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="##k">Más beneficios</a>
+									</li>
+								</ul>
+					
+								<form class="d-flex form-header" role="search">
+									<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+									<button class="btn btn-outline-success" type="submit">Search</button>
+								</form>
+							</div>
+						</div>
+							</nav>
+
+
+		</header>
+
+
+
+
+			<main> 
+					<!--seccion de embarcate en un viaje inolvidable, primer carousel de juegos, este esta debajo del carousel principal-->
+					<div class="container-fluid contenedor-principal-main">
+						<h2 class="text-white text-center mt-4 mb-5">Embárcate en un viaje inolvidable</h2>
+					
+						<!-- Carousel -->
+						<div id="gamingCarousel" class="carousel slide container" data-bs-ride="carousel">
+							<!-- Carousel Inner -->
+							<div class="carousel-inner">
+					
+
+								<!-- Carousel Item 1 -->
+								<div class="carousel-item active">
+									<div class="row">
+										<div class="col-12 col-md-4">
+											<div class="card">
+												<img src="https://m.media-amazon.com/images/I/710ssoMnMVL._FMwebp_.jpg" class="card-img-top img-fluid" alt="Shadow of War">
+												<div class="card-body">
+													<h5 class="card-title">Middle-earth: Shadow of War</h5>
+													<p class="card-text d-none d-xl-block">Juego en Luna</p>
+													<a href="###" class="btn btn-primary">Juega en Luna</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-4">
+											<div class="card">
+												<img src="https://m.media-amazon.com/images/I/91ADuXg3v8L._SX512_._AGmerlin_._FMwebp_.png" class="card-img-top img-fluid" alt="LEGO Lord of the Rings">
+												<div class="card-body">
+													<h5 class="card-title">LEGO The Lord of the Rings</h5>
+													<p class="card-text d-none d-xl-block">Juego en Luna</p>
+													<a href="###" class="btn btn-primary">Reclamar juego</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-4">
+											<div class="card">
+												<img src="https://m.media-amazon.com/images/I/6101MjRKLSL._FMwebp_.jpg" class="card-img-top img-fluid" alt="Shadow of Mordor">
+												<div class="card-body">
+													<h5 class="card-title">Middle-earth: Shadow of Mordor</h5>
+													<p class="card-text d-none d-xl-block">Juego en Luna</p>
+													<a href="###" class="btn btn-primary">Reclamar juego</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+					
+
+
+
+								<!-- Carousel Item 2 -->
+								<div class="carousel-item">
+									<div class="row">
+										<div class="col-12 col-md-4">
+											<div class="card">
+												<img src="https://m.media-amazon.com/images/I/710ssoMnMVL._FMwebp_.jpg" class="card-img-top img-fluid" alt="Shadow of War">
+												<div class="card-body">
+													<h5 class="card-title">Middle-earth: Shadow of War</h5>
+													<p class="card-text d-none d-xl-block">Juego en Luna</p>
+													<a href="###" class="btn btn-primary">Juega en Luna</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-4 ">
+											<div class="card">
+												<img src="https://m.media-amazon.com/images/I/91ADuXg3v8L._SX512_._AGmerlin_._FMwebp_.png" class="card-img-top img-fluid" alt="LEGO Lord of the Rings">
+												<div class="card-body">
+													<h5 class="card-title">LEGO The Lord of the Rings</h5>
+													<p class="card-text d-none d-xl-block">Juego en Luna</p>
+													<a href="###" class="btn btn-primary">Reclamar juego</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-4 ">
+											<div class="card">
+												<img src="https://m.media-amazon.com/images/I/6101MjRKLSL._FMwebp_.jpg" class="card-img-top img-fluid" alt="Shadow of Mordor">
+												<div class="card-body">
+													<h5 class="card-title">Middle-earth: Shadow of Mordor</h5>
+													<p class="card-text d-none d-xl-block">Juego en Luna</p>
+													<a href="###" class="btn btn-primary">Reclamar juego</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+					
+
+
+						 <!-- Carousel Item 3 -->
+						 <div class="carousel-item">
+							<div class="row">
+								<div class="col-12 col-md-4">
+									<div class="card">
+										<img src="https://m.media-amazon.com/images/I/710ssoMnMVL._FMwebp_.jpg" class="card-img-top img-fluid" alt="Shadow of War">
+										<div class="card-body">
+											<h5 class="card-title">Middle-earth: Shadow of War</h5>
+											<p class="card-text d-none d-xl-block">Juego en Luna</p>
+											<a href="###" class="btn btn-primary">Juega en Luna</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-4 ">
+									<div class="card">
+										<img src="https://m.media-amazon.com/images/I/91ADuXg3v8L._SX512_._AGmerlin_._FMwebp_.png" class="card-img-top img-fluid" alt="LEGO Lord of the Rings">
+										<div class="card-body">
+											<h5 class="card-title">LEGO The Lord of the Rings</h5>
+											<p class="card-text d-none d-xl-block">Juego en Luna</p>
+											<a href="###" class="btn btn-primary">Reclamar juego</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-4 ">
+									<div class="card">
+										<img src="https://m.media-amazon.com/images/I/6101MjRKLSL._FMwebp_.jpg" class="card-img-top img-fluid" alt="Shadow of Mordor">
+										<div class="card-body">
+											<h5 class="card-title">Middle-earth: Shadow of Mordor</h5>
+											<p class="card-text d-none d-xl-block">Juego en Luna</p>
+											<a href="###" class="btn btn-primary">Reclamar juego</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+			
+
+
+						  <!-- Carousel Item 4 -->
+						  <div class="carousel-item">
+							<div class="row">
+								<div class="col-12 col-md-4">
+									<div class="card">
+										<img src="https://m.media-amazon.com/images/I/710ssoMnMVL._FMwebp_.jpg" class="card-img-top img-fluid" alt="Shadow of War">
+										<div class="card-body">
+											<h5 class="card-title">Middle-earth: Shadow of War</h5>
+											<p class="card-text d-none d-xl-block">Juego en Luna</p>
+											<a href="###" class="btn btn-primary">Juega en Luna</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-4 ">
+									<div class="card">
+										<img src="https://m.media-amazon.com/images/I/91ADuXg3v8L._SX512_._AGmerlin_._FMwebp_.png" class="card-img-top img-fluid" alt="LEGO Lord of the Rings">
+										<div class="card-body">
+											<h5 class="card-title">LEGO The Lord of the Rings</h5>
+											<p class="card-text d-none d-xl-block">Juego en Luna</p>
+											<a href="###" class="btn btn-primary">Reclamar juego</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-4 ">
+									<div class="card">
+										<img src="https://m.media-amazon.com/images/I/6101MjRKLSL._FMwebp_.jpg" class="card-img-top img-fluid" alt="Shadow of Mordor">
+										<div class="card-body">
+											<h5 class="card-title">Middle-earth: Shadow of Mordor</h5>
+											<p class="card-text d-none d-xl-block">Juego en Luna</p>
+											<a href="###" class="btn btn-primary">Reclamar juego</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+			
+
+								
+							</div>
+					
+							<!-- Carousel Controls -->
+							<button class="carousel-control-prev boton-prev" type="button" data-bs-target="#gamingCarousel" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Anterior</span>
+							</button>
+							<button class="carousel-control-next boton-next" type="button" data-bs-target="#gamingCarousel" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Siguiente</span>
+							</button>
+						</div>
+					</div>
+					
+
+
+
+
+
+
+					<!--Seccion de juegos en oferta y especiales-->
+					<div class="container mt-4 container-ofertas">
+						<h2 class="text-white text-center mt-4 mb-5">Juegos en oferta y especiales</h2>
+						<div id="carouselExampleIndicators" class="carousel slide">
+						  <!-- Indicadores -->
+						  <div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						  </div>
+					  
+						  <!-- Contenido del carrusel -->
+						  <div class="carousel-inner carousel-inner-ofertas">
+						
+							<!-- item 1 -->
+							<div class="carousel-item active">
+							  <div class="row"> 
+								
+								<div class="col-md-4">
+								  <div class="card">
+									<img src="https://m.media-amazon.com/images/I/718G3OhpA5L._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+									<div class="card-body">
+									  <h5 class="card-title">Lego Indiana Jones <br> The Original Adventure</h5>
+									  <p class="card-text d-none d-xl-block">Juego en Luna</p>
+									  <a href="#p" class="btn btn-primary">Juega en Luna</a>
+									</div>
+								  </div>
+								</div>
+								<div class="col-md-4">
+								  <div class="card">
+									<img src="https://m.media-amazon.com/images/I/710ssoMnMVL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+									<div class="card-body">
+									  <h5 class="card-title">Prime <br> Definitive Edition</h5>
+									  <p class="card-text d-none d-xl-block">Juego en Luna</p>
+									  <a href="#p" class="btn btn-primary">Juega en Luna</a>
+									</div>
+								  </div>
+								</div>
+								<div class="col-md-4">
+								  <div class="card">
+									<img src="https://m.media-amazon.com/images/I/61KUUMEcEGL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+									<div class="card-body">
+									  <h5 class="card-title">Tomb Raider <br> Definitive Edition</h5>
+									  <p class="card-text d-none d-xl-block">Juego en Luna</p>
+									  <a href="#p" class="btn btn-primary">Juega en Luna</a>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+					  
+							<!-- item 2 -->
+							<div class="carousel-item">
+							  <div class="row"> 
+								<div class="col-md-4">
+								  <div class="card">
+									<img src="https://m.media-amazon.com/images/I/51aqVVm6P1L._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+									<div class="card-body">
+									  <h5 class="card-title">Greed Fall Gold Edition</h5>
+									  <p class="card-text d-none d-xl-block">Juego en Luna</p>
+									  <a href="#p" class="btn btn-primary">Juega en Luna</a>
+									</div>
+								  </div>
+								</div>
+								<div class="col-md-4">
+								  <div class="card">
+									<img src="https://m.media-amazon.com/images/I/71157ti9yxL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+									<div class="card-body">
+									  <h5 class="card-title">Lego Hobbit</h5>
+									  <p class="card-text d-none d-xl-block">Juego en Luna</p>
+									  <a href="#" class="btn btn-primary">Juega en Luna</a>
+									</div>
+								  </div>
+								</div>
+								<div class="col-md-4">
+								  <div class="card">
+									<img src="https://m.media-amazon.com/images/I/71PhQGM0TvL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+									<div class="card-body">
+									  <h5 class="card-title">Kerbal Space Program</h5>
+									  <p class="card-text d-none d-xl-block">Juego en Luna</p>
+									  <a href="#p" class="btn btn-primary">Juega en Luna</a>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+					  
+							<!-- item 3 -->
+							<div class="carousel-item">
+							  <div class="row"> 
+								<div class="col-md-4">
+								  <div class="card">
+									<img src="https://m.media-amazon.com/images/I/714HIJRPMHL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+									<div class="card-body">
+									  <h5 class="card-title">Bonderlands 2</h5>
+									  <p class="card-text d-none d-xl-block">Juego en Luna</p>
+									  <a href="#p" class="btn btn-primary">Juega en Luna</a>
+									</div>
+								  </div>
+								</div>
+								<div class="col-md-4">
+								  <div class="card">
+									<img src="https://m.media-amazon.com/images/I/61C7FGzqLML._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+									<div class="card-body">
+									  <h5 class="card-title">The Falconeer</h5>
+									  <p class="card-text d-none d-xl-block">Juego en Luna</p>
+									  <a href="#p" class="btn btn-primary">Juega en Luna</a>
+									</div>
+								  </div>
+								</div>
+								<div class="col-md-4">
+								  <div class="card">
+									<img src="https://m.media-amazon.com/images/I/61Wvhu47tRL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+									<div class="card-body">
+									  <h5 class="card-title">Lego The Lord Of The Rings</h5>
+									  <p class="card-text d-none d-xl-block">Juego en Luna</p>
+									  <a href="#p" class="btn btn-primary">Juega en Luna</a>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+					  
+						  <!-- Controles del carrusel -->
+						  <button class="carousel-control-prev boton-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						  </button>
+						  <button class="carousel-control-next boton-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						  </button>
+						</div>
+				   </div>
+
+
+
+
+
+				   <!--seccion Desafios Diarios, y juegos en linea exclusivos de Prime-->
+				<div class="container mt-4 container-juegosEnLinea mb-4">
+				<h3 class="text-white mt-5 mb-4">Desafios diarios, y juegos en linea exclusivos de Prime</h3>
+				<div class="row">
+					<div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/61Ps-4gNg8L._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Moonlighter</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#l" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+		
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/71OQbTpTacL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">Bonderlands: The Pre-sequel</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#l" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+		
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/71be3E1ZjML._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Showgunner</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#l" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+				 
+		
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/615oAqRbk2L._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">9 Years OF Shadow</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#l" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+		
+				
+		
+		
+				<div class="row"> 
+					<div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/61XUNYnaK9L._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Arcadegeddon</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#l" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+		
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/618kzIamMlL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">Golfie</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#l" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+		
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/71g1n5JZWsL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Loop Hero</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#l" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+				 
+		
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/61pjyTxMMpL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">Arcade Paradise</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#l" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+					  </div>
+				   
+
+
+
+
+
+	
+
+
+					  <!--Seccion apoya a tus streamers favoritos-->
+			<div class="container text-white container-stream">
+				<div class="container-stream-leftPart">
+				<h3>Apoya a tus streamers favoritos de <br>Twitch con una suscripción mensual <br> al canal</h3>
+				<p>Los clientes de Amazon Prime tiene una suscripción de canal mensual gratis, gestos exclusivos y más.</p>
+				<b><i class="bi bi-patch-check-fill"></i>Incluidos con prime</b> <br>
+				<button type="button" class="btn btn-dark text-white">Mas informacion</button>
+		   </div>
+	
+		   <div class="container-stream-rightPart">
+			<img class="order-sm-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1vkwHVqqCQ1sF1odRzV_qFB3dGjEaQ_D3zg&s" alt="Icono de twich">
+		</div>
+				
+				</div>
+
+
+
+
+
+
+				<!--seccion del penultimo container, el de juegos en la nube-->
+			<div class="container mt-4 container-cloud mb-4">
+				<h3 class="text-white mt-5 mb-4">Juegos en la nube de prime, gratuitos</h3>
+				<div class="row">
+					<div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/710ssoMnMVL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Grime Definitive Edition</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#i" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/71Ruz3g7L6L._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">KeyWe</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#i" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/616Htyz-DML._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Figment 2: Creed Valley</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#i" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+				 
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/61VbZv1JZML._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">Young Souls</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#i" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			
+				
+			
+			
+				<div class="row"> 
+					<div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/61ViFOyaMCL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Spells & secrets</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#i" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/61n5TjDTA2L._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">En Garde!</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#i" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/71UouI64Z8L._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Hard West 2</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#i" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+				 
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/61N7TR-OJCL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">Beholder 3</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#i" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			
+			
+				<div class="row">
+					<div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/61Bed1ZPkrL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Cat Quest II</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#i" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/61i1pP4jrBL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">Midnight Fight Express</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#i" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/71VeFQH7crL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Forager</h5>
+							<p class="card-text d-none d-xl-blockd-none d-xl-block">Juego en Luna</p>
+							<a href="#i" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+				 
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/61F2d0fC4zL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">Gravity Circuit</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#i" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			
+			
+				<div class="row">
+					<div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/61mo3Wp5uBL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">South Of the Circle</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#i" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+					<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/714ZkpiHbXL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					  <div class="card-body">
+						<h5 class="card-title">Samurai Bringer</h5>
+						<p class="card-text d-none d-xl-block">Juego en Luna</p>
+						<a href="#i" class="btn btn-primary">Juega en Luna</a>
+					  </div>
+					</div>
+				  </div>
+			
+				  <div class="col-12 col-sm-6 col-lg-3 text-sm-center text-lg-start"> 
+						<div class="card">
+						  <img src="https://m.media-amazon.com/images/I/614N-hAcNiL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+						  <div class="card-body">
+							<h5 class="card-title">Soulstice</h5>
+							<p class="card-text d-none d-xl-block">Juego en Luna</p>
+							<a href="#i" class="btn btn-primary">Juega en Luna</a>
+						  </div>
+						</div>
+					  </div>
+				 
+			
+				  
+				</div>
+			
+						  </div>
+
+
+
+
+
+
+						  	<!--container de un solo elemto al final-->
+			<div class="container container-seguirExplorando">
+				<h3 class="text-white mt-5 mb-4">Seguir explorando</h3>
+				<div class="row">
+			
+				<div class="col-sm-6 col-lg-3 text-sm-center text-lg-start">
+				<div class="card">
+					<img src="https://m.media-amazon.com/images/I/612JM4cFVIL._FMwebp_.jpg" class="card-img-top" alt="Shadow of War">
+					<div class="card-body">
+					  <a href="####">Lost Ark</a>
+					  <p class="card-text">Lote Hot August</p>
+					  <a href="#" class="btn btn-primary">Reclamar</a>
+					</div>
+					</div>
+				  </div>
+				</div>
+						</div>
+
+
+
+
+
+
+						<div class="container-fluid text-white text-center container-volverInicio">
+							<a href="#inicio">Volver al inicio</a>
+						</div>
+				</main>
+
+
+
+
+
+				<footer>
+	
+					<div class="container-fluid text-white container-footer d-flex flex-column">
+						<img src="https://m.media-amazon.com/images/I/517UMEkyGGL._FMwebp_.jpg" alt="Logo" width="90" height="70">
+						
+				
+						
+							<p>Síguenos en @PrimeGaming 
+							<a href="##"><i class="bi bi-twitter"></i></a>
+							<a href="##"><i class="bi bi-facebook"></i></a>
+							<a href="##"><i class="bi bi-instagram"></i></a>
+							<br>
+						
+				
+							©1996-2024, Amazon.com, Inc. o sus filiales  <br>
+							
+							Condiciones de uso  Aviso de privacidad  Guía de Prime Gaming  Tus opciones de privacidad respecto de los anuncios</p>
+					
+						</div>
+				
+				</footer>
+
+
+
+
+
+
+
+					
+		
+
+
+<script src="scriptPrincipal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

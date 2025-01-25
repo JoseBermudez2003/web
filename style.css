@@ -1,0 +1,555 @@
+/*estilos generales de las cards de los juegos*/
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	min-height: 325px; /*esto es para el responsive*/
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.card .btn {
+    margin-top: auto; /* Empuja el botón hacia abajo */
+}
+
+
+.boton-prev{
+	margin-left: -50px;
+}
+
+.boton-next{
+	margin-right: -50px;
+}
+/*fin estilos generales*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset de márgenes y rellenos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fondo temporal del main */
+main {
+    background-color: black;
+}
+
+/* Estilo del header */
+header {
+    background-color: #0b0418;
+}
+
+
+/*logo de la pagina*/
+.img-logo{
+	width: 100px;
+	height: 40px;
+}
+
+
+
+/*seccion de los botones del header que esta encima del carrousel (iniciar sesion y demas botones)*/
+.btn-group-header{
+	margin: 5px 50px 5px 5px;
+	display: flex;
+	gap: 10px;
+}
+
+.btn-group-header a{
+	text-decoration: none;
+	color: white;
+}
+
+.drop-menu a{
+	color: black;
+}
+
+/* Estilos generales */
+.navbar {
+	padding: 10px;
+}
+
+.img-logo {
+	width: 30px;
+	height: 24px;
+}
+
+.btn-group-header {
+	display: flex;
+	gap: 10px;
+}
+
+.btn {
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contenedor que esta encima del carrousel, este contendor contiene informacion*/
+.container-info{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+	padding: 10px 40px 10px 80px;
+}
+
+.container-info p{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+/*icono del check del container info*/
+.bi-check2{
+	color: green;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+/*esta es la parte que dice sin costo adicional*/
+.container-info-body-part-left b{
+	border-radius: 50px;
+	background-color: black;
+	padding: 2px;
+	font-size: 15px;
+}
+
+/*parte derecha del container info, la que tiene la tarjeta*/
+.container-card{
+	margin: 0 auto;
+	border-style: none;
+}
+
+.container-card .card-body{
+	height: auto;
+}
+
+.container-card p{
+	font-size: 15px;
+	color: white;
+	margin: 5px 20px 5px 0
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*estilos carrousel*/
+/*primer carousel*/
+.carouselMain-container {
+	background-color: #000000;
+	padding: 20px;
+  }
+
+.carousel-inner {
+  max-width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 10px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Estilos de la barra de navegación */
+  .container-fluid-navbar {
+    background-color: #0b0418;
+	height: 80px;
+}
+
+
+.container-fluid-navbar a {
+    color: white;
+    font-size: 19px;
+	border-radius: 50px;
+	padding: 10px;
+	text-align: center;
+}
+
+.container-fluid-navbar a:hover {
+    color: white;
+    border-radius: 50px;
+    background-color: gray;
+	padding: 10px;
+}
+
+.container-fluid-navbar a:focus{
+	color: rgb(158, 158, 158);
+}
+
+/*items de las listas de la barra buscadora, es todo lo que esta al lado del search*/
+.navbar-nav {
+    gap: 30px;
+    margin: auto;
+    display: flex; /* Asegura que gap funcione */
+	justify-content: center;
+	align-items: center;
+    margin-left: 50px;
+}
+
+
+/* Estilo del buscador en la barra de navegación */
+.form-header {
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*Primer carousel del main (segundo carousel de la pagina)*/
+/* Estilo de la sección primera del main(juegos)*/
+.contenedor-principal-main {
+    background-image: url(https://m.media-amazon.com/images/I/61kFaFsJOzL._FMwebp_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+	align-items: center;
+    padding: 0 15px; /* Añadir padding para móviles */
+}
+
+.contenedor-principal-main .card {
+    background-color: #160930;
+	border-style: none;
+	color: white;
+	margin: 10px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*seccion del container ofertas, segundo carousel del main y tercero de la pagina*/
+.container-ofertas {
+    max-width: 120px; /* Ajusta según el ancho máximo deseado */
+    margin: 0 auto; /* Centra el contenedor */
+	border-bottom: solid 1px gray;
+}
+
+.container-ofertas .card{
+    background-color: #160930;
+	border-style: none;
+	color: white;
+	margin: 10px 0 10px 0;
+}
+
+
+/*indicadores de botones, estas son las barras que nos dicen en que sitio estamos del carousel*/
+.carousel-indicators {
+    position: relative; /* Cambiar de absolute a relative */
+    top: auto; /* Elimina cualquier valor preexistente de top */
+    margin-top: 20px; /* Ajusta el espacio entre las cards y los indicadores */
+  }
+
+  .carousel-inner-ofertas {
+    padding-bottom: 30px; /* Deja espacio para los indicadores si es necesario */
+  }
+
+  /*raya gris de abajo que sirve para dividir containers*/
+  .container-ofertas {
+    max-width: 1200px; /* Ajusta según el ancho máximo deseado */
+    margin: 0 auto; /* Centra el contenedor */
+	border-bottom: solid 1px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*seccion de Desafios Diarios, y juegos en linea exclusivos de Prime*/
+.container-juegosEnLinea{
+	border-bottom: solid 1px gray;
+	margin-bottom: 30px;
+}
+
+.container-juegosEnLinea .card{
+	background-color: #160930;
+	border-style: none;
+	color: white;
+	margin: 10px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+/*parte del minicontenedor de streams*/
+.container-stream{
+	background-color:  #9249ff;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 20px;
+}
+
+
+.container-stream-leftPart{
+	width: 50%;
+}
+.container-stream-rightPart{
+	width: 50%;
+}
+.container-stream-rightPart img{
+	height: 220px;
+	width: 70%;
+	margin-left: 70px;
+}
+
+.container-stream button{
+	margin-top: 10px;
+}
+
+.bi-patch-check-fill{
+	color: skyblue;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*container de juegos en la nube*/
+.container-cloud{
+	border-bottom: solid 1px gray;
+	margin-bottom: 30px;
+}
+
+.container-cloud .card{
+	background-color: #160930;
+	border-style: none;
+	color: white;
+	margin: 10px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*seccion del ultimo container de la pagina, este solo contiene 1 elemento*/
+.container-seguirExplorando{
+	border-bottom: solid 1px gray;
+	margin-bottom: 30px;
+}
+
+.container-seguirExplorando a{
+	text-decoration: none;
+}
+
+.container-seguirExplorando .card{
+	background-color: #160930;
+	border-style: none;
+	color: white;
+	margin: 10px 0 10px 0;
+	min-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/*barra de volver al inicio*/
+.container-volverInicio{
+	background-color: rgb(44, 44, 44);
+	height: 40px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+
+.container-volverInicio a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+ }
+
+
+
+
+
+
+
+
+
+
+ /*seccion del footer de la pagina web*/
+ footer {
+	background-color: black;
+ }
+ 
+.container-footer{
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	height: 120px;
+}
+
+.container-footer img{
+	margin-right: 20px;
+}
+
+.vacio{
+	border-right: solid 2px gray;
+	color: black;
+	height: 70px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.bi-twitter, .bi-facebook, .bi-instagram{
+	background-color: transparent;
+	font-size: 13px;
+	margin-left: 2px;
+}
+
+.bi-amazon{
+	font-size: 50px;
+	margin-left: 10px;
+	display: block;
+}
